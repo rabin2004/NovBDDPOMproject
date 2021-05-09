@@ -1,0 +1,875 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-09T15:13:38.538Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5965334700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.loadBrowser()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Positive registration functionality",
+        "description": "",
+        "id": "registration-funcitionality;positive-registration-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 398920100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1033593700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is in register page",
+            "match": {
+              "location": "step_definition.RegistrationFunctionalityTest.user_is_in_register_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 631598600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user provides \"tom12\", \"123\" and \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tom12\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 33
+                }
+              ],
+              "location": "step_definition.RegistrationFunctionalityTest.user_provides_username_password_and_confirmPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 776906100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "clicks submit button",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136617900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "\"tom12\" should be able to register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tom12\"",
+                  "offset": 0
+                }
+              ],
+              "location": "step_definition.RegistrationFunctionalityTest.username_should_be_able_to_register(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T15:13:47.641Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4062374200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.loadBrowser()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Positive registration functionality",
+        "description": "",
+        "id": "registration-funcitionality;positive-registration-functionality;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 357334400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 698198300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is in register page",
+            "match": {
+              "location": "step_definition.RegistrationFunctionalityTest.user_is_in_register_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 468047200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user provides \"david12\", \"123\" and \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"david12\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 35
+                }
+              ],
+              "location": "step_definition.RegistrationFunctionalityTest.user_provides_username_password_and_confirmPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 669387400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "clicks submit button",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64143400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "\"david12\" should be able to register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"david12\"",
+                  "offset": 0
+                }
+              ],
+              "location": "step_definition.RegistrationFunctionalityTest.username_should_be_able_to_register(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Registration funcitionality",
+    "description": "  New user should be able to register to the application using this functionality",
+    "id": "registration-funcitionality",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/feature/RegistrationFuntionality.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-09T15:13:53.984Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4214906700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.loadBrowser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Postive login functionality test by clicking submit button",
+        "description": "",
+        "id": "login-functionality;postive-login-functionality-test-by-clicking-submit-button",
+        "after": [
+          {
+            "result": {
+              "duration": 444316000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15036500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is in home page",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.user_is_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 268645100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user provides valid username",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.user_provides_valid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 211999300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "provides valid password",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.provides_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 952658700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "clicks submit button",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132540900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user should be able to login",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T15:14:00.315Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4091385300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.loadBrowser()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Postive login functionality test by hitting enter",
+        "description": "",
+        "id": "login-functionality;postive-login-functionality-test-by-hitting-enter",
+        "after": [
+          {
+            "result": {
+              "duration": 246314500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13001800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user is in home page",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.user_is_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 185999000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user provides valid username",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.user_provides_valid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 172062300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "provides valid password",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.provides_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1028051800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "hits enter",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.hits_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94988200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user should be able to login",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T15:14:06.186Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5031121500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.loadBrowser()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Negative login functionality test using invalid username and invalid password",
+        "description": "",
+        "id": "login-functionality;negative-login-functionality-test-using-invalid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 450253100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37111900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user is in home page",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.user_is_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 240086700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user provides invalid username",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.user_provides_invalid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 156012800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "provides invalid password",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.provides_invalid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 760727400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "hits enter",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.hits_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140990300,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user should not be able to login",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.user_should_not_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T15:14:13.012Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4214275100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.loadBrowser()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Postive login functionality test in Sign-On page",
+        "description": "",
+        "id": "login-functionality;postive-login-functionality-test-in-sign-on-page",
+        "after": [
+          {
+            "result": {
+              "duration": 534934000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 815646600,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user is in Sign on page",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.user_is_in_sign_on_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 214151500,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user provides valid username",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.user_provides_valid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 172985200,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "provides valid password",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.provides_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 829613500,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "clicks submit button",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110181400,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user should be able to login",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T15:14:19.916Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3805814900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.loadBrowser()"
+            }
+          }
+        ],
+        "line": 61,
+        "name": "Postive login functionality test using multiple datas",
+        "description": "",
+        "id": "login-functionality;postive-login-functionality-test-using-multiple-datas;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 761631300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9004300,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user is in home page",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.user_is_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 316993500,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user provides valid \"test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test123\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step_definition.LoginFunctionalityTest.user_provides_valid_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 186998600,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "provides valid \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_definition.LoginFunctionalityTest.provides_valid_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 742488600,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "clicks submit button",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75997600,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user should be able to login",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T15:14:25.828Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3475161600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.loadBrowser()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "Postive login functionality test using multiple datas",
+        "description": "",
+        "id": "login-functionality;postive-login-functionality-test-using-multiple-datas;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 652081400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21525500,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user is in home page",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.user_is_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 184016200,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user provides valid \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step_definition.LoginFunctionalityTest.user_provides_valid_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 161785200,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "provides valid \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_definition.LoginFunctionalityTest.provides_valid_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 756788400,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "clicks submit button",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65991100,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user should be able to login",
+            "match": {
+              "location": "step_definition.LoginFunctionalityTest.user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "  User will be able to access application providing valid credentials. ",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/feature/loginFunctionality.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
